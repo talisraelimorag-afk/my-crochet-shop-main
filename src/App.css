@@ -12,8 +12,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #108d8d;
-
+  /* background-color: #108d8d; */
+background-color: white;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -106,6 +106,56 @@ a:hover {
 } */
 
 h1 {
-  font-size: 3.2em;
+  font-size: 4em;
   line-height: 1.1;
+  font-weight: 900;
 }
+
+.main-header {
+  display: flex;
+  align-items: center;        /* Vertically centers logo, text, and links */
+  justify-content: space-between; /* Pushes logo/caption to left and links to right */
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;                  /* Space between logo image and text caption */
+}
+
+.logo {
+  height: 40px;               /* Constrain logo size */
+  width: auto;
+}
+
+.navbar {
+  display: flex;          /* This puts brand and links on one line */
+  align-items: center;    /* Centered vertically (important!) */
+  justify-content: space-between; /* Space between logo and links */
+  padding: 10px 20px;
+}
+
+.brand {
+  display: flex;          /* Puts logo and caption on one line */
+  align-items: center;
+  gap: 12px;              /* Space between logo and text */
+}
+
+.logo-img {
+  height: 300px;           /* Size your logo */
+  width: auto;
+}
+
+.nav-links {
+  display: flex;          /* Puts individual links on one line */
+  gap: 25px;              /* Space between each link */
+}
+
+.nav-links a {
+  text-decoration: none;  
+  color: #333;
+}
+

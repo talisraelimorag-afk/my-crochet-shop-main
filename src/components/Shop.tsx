@@ -36,7 +36,7 @@ const Shop: React.FC = () => {
   };
 
   return (
-    <div style={{ display: "flex", padding: "20px", gap: "20px" }}>
+    <div style={{ display: "flex", padding: "20px", gap: "20px" ,backgroundColor: '#108d8d'}}>
       <div style={{ flex: 1 }}>
         <div style={{ marginBottom: "20px", textAlign: "center" }}>
           <input
@@ -73,7 +73,7 @@ const Shop: React.FC = () => {
           border: "1px solid #ddd",
           borderRadius: "8px",
           padding: "16px",
-          backgroundColor: "#d4bd4a",
+          backgroundColor: "#d9b258",
           height: "fit-content",
           position: "sticky",
           top: "20px",

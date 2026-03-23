@@ -28,7 +28,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         margin: "16px",
         maxWidth: "300px",
         textAlign: "center",
-        backgroundColor: "#b5990c",
+        backgroundColor: "#d9b258",
         
       }}
     >
