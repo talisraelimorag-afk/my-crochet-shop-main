@@ -41,10 +41,15 @@ export type Category2 =
   | "Turtle"
   | "Sheep"
   | "Jelly"
-     | "Minions"
+  | "Minions"
   | "Om Nom"
   | "Rhino"
   | "Llama"
+  | "Octopus"
+  | "Bunny"
+  |"Puffin"
+  |"Deer"
+|"Seal"
   ;
 
 export interface Product {

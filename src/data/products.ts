@@ -91,6 +91,21 @@ import duck2 from "../assets/pictures/20260318_130533.jpg";
 import duck3 from "../assets/pictures/20260318_130554.jpg";
 import monkey1 from "../assets/pictures/20260318_130615.jpg";
 import monkey2 from "../assets/pictures/20260318_130715.jpg";
+
+import octo1 from "../assets/pictures/20260325_143202.jpg";
+import octo2 from "../assets/pictures/20260325_143216.jpg";
+import doggy1 from "../assets/pictures/20260325_143241.jpg";
+import doggy2 from "../assets/pictures/20260325_143304.jpg";
+import fawn1 from "../assets/pictures/20260325_143352.jpg";
+import fawn2 from "../assets/pictures/20260325_143404.jpg";
+import seal1 from "../assets/pictures/20260325_143423.jpg";
+import seal2 from "../assets/pictures/20260325_143438.jpg";
+import puffin1 from "../assets/pictures/20260325_143541.jpg";
+import puffin2 from "../assets/pictures/20260325_143552.jpg";
+import bunny1 from "../assets/pictures/20260325_143632.jpg";
+import bunny2 from "../assets/pictures/20260325_143759.jpg";
+import bunny3 from "../assets/pictures/20260325_143813.jpg";
+
 export const products: Product[] = [
   {
     id: 1,
@@ -389,5 +404,59 @@ export const products: Product[] = [
     CategoryType1: "Elephant",
     CategoryType2: ["Animal", "Safari"],
     imageUrl: [ele1],
+  },
+   {
+    id: 34,
+    name: "Octopus",
+    description: "Cute Octopus plush toy.",
+    price: 100,
+    CategoryType1: "Octopus",
+    CategoryType2: ["Animal", "Sea"],
+    imageUrl: [octo1, octo2],
+  },
+   {
+    id: 35,
+    name: "Cute Seal",
+    description: "Cute Seal plush toy.",
+    price: 100,
+    CategoryType1: "Seal",
+    CategoryType2: ["Animal", "Sea"],
+    imageUrl: [seal1, seal2],
+  },
+   {
+    id: 36,
+    name: "Doggy",
+    description: "Cute Doggy plush toy.",
+    price: 100,
+    CategoryType1: "Dog",
+    CategoryType2: ["Animal", "House"],
+    imageUrl: [doggy1, doggy2],
+  },
+   {
+    id: 37,
+    name: "Fawn",
+    description: "Cute Deer plush toy.",
+    price: 100,
+    CategoryType1: "Deer",
+    CategoryType2: ["Animal", "Woodland"],
+    imageUrl: [fawn1, fawn2],
+  },
+   {
+    id: 38,
+    name: "Bunny",
+    description: "Cute Bunny plush toy.",
+    price: 100,
+    CategoryType1: "Bunny",
+    CategoryType2: ["Animal", "Woodland"],
+    imageUrl: [bunny1, bunny2,bunny3],
+  },
+   {
+    id: 39,
+    name: "Puffin",
+    description: "Cute Puffin plush toy.",
+    price: 100,
+    CategoryType1: "Puffin",
+    CategoryType2: ["Animal", "Bird"],
+    imageUrl: [puffin1, puffin2],
   },
 ];
